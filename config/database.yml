@@ -1,0 +1,25 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: timetracker_development_3
+  pool: 5
+  username: postgres
+  password: admin
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: timetracker_test_3
+  pool: 5
+  username: postgres
+  password: admin
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: timetracker_production
+  pool: 5
+  username: postgres
+  password: admin
